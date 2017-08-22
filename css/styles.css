@@ -1,0 +1,47 @@
+html,
+body {
+  height: 100%;
+  background-color: #ccc;
+}
+body {
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+}
+
+.container {
+  width: 70rem;
+}
+
+.breadcrumb {
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  list-style: none;
+  border-radius: 6px;
+  color: #c1f2b5;
+  background-color: #333;
+}
+
+.jumbotron {
+  background-color: #333;
+  text-align: left;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #c1f2b5;
+}
+
+.breadcrumb-item.active {
+  color: #c1f2b5;
+  font-weight: bold;
+}
+
+.jumbotron li {
+  margin-bottom: 0.6rem;
+}
